@@ -10,11 +10,11 @@ module.exports = {
             network_id: "\*", // Match any network id
             gas: 5000000
         },
-        ropsten: {
+        rinkbey: {
             provider: function () {
                 return new HDWalletProvider(MNEMONIC, API_KEY)
             },
-            network_id: 3
+            network_id: 4
         }
     },
     compilers: {
